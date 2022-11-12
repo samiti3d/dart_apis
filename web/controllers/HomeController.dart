@@ -3,10 +3,9 @@ import 'package:shelf_router/shelf_router.dart';
 import 'package:shelf/shelf.dart';
 import 'package:shelf/shelf_io.dart' as shelf_io;
 import './TestController.dart';
-import '../cors.dart'
+import '../cors.dart';
 
 class HomeController {
-
   // Define our getter for our handler
   Handler get handler {
     final router = Router();
